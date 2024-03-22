@@ -1,0 +1,107 @@
+body{
+    background-color: #ecf0f3;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-rows:2fr 2fr 2.25fr;
+    grid-template-columns:1fr 2fr;
+    gap: 50px;
+}
+
+
+h1{
+    font-size:50px ;
+    font-weight:bolder;
+    font-family: Nunito Sans;
+}
+
+.title{
+    font-size: 80px;
+    font-weight:800;
+    font-family:Young Serif;
+    margin-top: 150px;
+
+}
+
+.name{
+    color: #ff014f;
+}
+
+h2{
+    font-size:70px;
+    font-family:Young Serif;
+}
+
+
+p{
+    font-size:50px;
+    font-family:Nunito Sans;
+}
+.About{
+    padding-left: 50px;
+}
+.resume{
+    background-color: #ff014f;
+    border-radius: 30px;
+    color: #ecf0f3;
+    padding-left:50px;
+}
+.contacts{
+    border: 5px solid #ff014f;
+    border-radius: 30px;
+    padding-left: 50px;
+    
+}
+.button{
+    margin-left: 20%;
+    margin-top: 195px;
+    
+}
+.btn{
+    padding:50px;
+    padding-left:70px ;
+    border-radius: 30px;
+    padding-right: 70px;
+    background-color:#ecf0f3;
+    color:#ff014f;
+    font-size:30px;
+   
+}
+.tindog{
+    float: right;
+}
+.pic{
+    border-radius: 30px;
+}
+@media(max-width:600px){
+ .container{
+    display: block;
+    gap: 15px;
+ }
+ .pic{
+    width: 385px;
+    border-radius: 0%;
+ }
+ h1{
+    font-size: 30px;
+ }
+ h2{
+    font-size: 50px;
+ }
+ p{
+    font-size: 40px;
+ }
+ .btn{
+    font-size:20px;
+    padding:30px;
+    margin-bottom: 30px;
+    margin-right:100px;
+ }
+ .tindog{
+    width:380px;
+    float: none;
+}
+    
+}
